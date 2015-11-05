@@ -1,8 +1,26 @@
-layout_spectrum: 0.9456393
-typography_spectrum: 0.7305854
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.7646478
   lightness: 0.549016
-  brandStrength: 0.7938846
+  brandStrength: 1
+  brandColors:
+    - '#0D0B0C'
+    - '#FFFFFB'
+    - '#803804'
+    - '#FB9101'
+    - '#9A9AB4'
   rhythmicContrast: 0.4297624
+typography_spectrum: 0.7305854
+layout_spectrum: 0.9456393
 name: NickVenezia
